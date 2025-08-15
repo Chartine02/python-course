@@ -4,7 +4,7 @@ print(f"{greeting}!")
 
 #  2
 name = input("Your name please: ")
-print(f"Hello, {name}")
+print(f"Hello, {name.strip().title()}")
 
 # 3
 first = "I am "
